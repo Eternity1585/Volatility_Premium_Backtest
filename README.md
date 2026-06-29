@@ -64,5 +64,6 @@ instead of silently switching to fake data.
 - VIX is a variance-swap-style index and includes skew and variance risk premium.
 - The straddle price is simplified with Black-Scholes.
 - No margin model, bid-ask spread, assignment, or intraday hedging is included.
-- Synthetic data is only available through the explicit `--synthetic` flag.
+- Synthetic data is only available through the explicit `USE_SYNTHETIC_DATA`
+  setting in `main.py`.
 - The result is a research exercise, not a trading recommendation.
